@@ -1,0 +1,236 @@
+h1,h2,h3,h4,h5,h6 {
+    font-size: 20px;
+}
+
+.test {
+    width: 20px;
+    height: 500px;
+    background: orange;
+}
+
+
+.site-footer {
+    background: #182740;
+    color: #fff;
+}
+.site-footer a {
+    color: #fff;
+}
+input[type="text"].my-input {
+    background: #fff;
+    padding: 0 5px;
+    color: #333;
+    box-sizing: border-box;
+    border-bottom: none;
+}
+input[type="text"].my-input:focus {
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.go {
+    background: orange;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    padding: 6px;
+}
+.go:focus {
+    background: orange;
+}
+
+div.input {
+    position: relative;
+}
+.my-ads1 {
+    min-height: 190px;
+    background: #0D3F96
+}
+.my-ads1::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 502px; top: 520px; /* Положение треугольника */
+    border: 20px solid transparent; /* Прозрачные границы */
+    border-left: 20px solid red; 
+     
+    
+}
+.my-ads2 {
+    min-height: 190px;
+    background: #0D3F96
+}
+.my-ads2::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 808px; top: 600px; /* Положение треугольника */
+    border: 20px solid transparent; /* Прозрачные границы */
+    border-right: 20px solid red; 
+     
+    
+}
+
+.zilla {
+    height: 190px;
+    background: url(../images/coinzilla-join-us.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.footer-ablock {
+   
+   
+}
+
+.main-art h2 {
+    margin-bottom: 5px;
+}
+.main-art p {
+    margin:3px 0;
+}
+
+.utp {
+    background-color: #182740;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+.hello-zilla {
+    background-image: url(../images/coinzilla-hello.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 10% 50%;
+}
+
+.hello-zilla .p1 {
+    color: #5F6E87;
+    font-family: open sans;
+    font-size: 13px;
+}
+.hello-zilla .spanp1:hover {
+    transition: 1s;
+    color: #bdbdbd;
+}
+.hello-zilla .spanp11:hover {
+    transition: 1s;
+    color: #bdbdbd;
+}
+.hello-zilla .spanp1:active {
+    color: #F7931A;
+}
+.hello-zilla .spanp11:active {
+    color: #F7931A;
+}
+.hello-zilla h2 {
+    font-family: Raleway;
+    font-size: 37px;
+}
+.hello-zilla .p2 {
+    font-family: open sans;
+    font-size: 16px;
+}
+.hello-zilla .button2 {
+    font-family: open sans;
+    background: #F7931A;
+    padding: 15px 44px;
+    font-size: 22px;
+    border: none;
+}
+.hello-zilla .button2:hover {
+    background: #ff7043;
+    transition: 1s;
+}
+.hello-zilla .p3 {
+    font-family: open sans;
+    font-size: 13px;
+}
+
+
+
+
+.my-utp {
+    padding: 30px 0;    
+}
+
+.mb100 {
+    margin-bottom: -100px;
+}
+
+.block-head {
+    height: 120px;
+    background: #0D3F96;
+    color: #5F6E87;
+    font-size: 36px;
+}
+.block-head .my-utp:hover {
+    transition: 1s;
+    color: #bdbdbd;
+}
+
+
+
+
+header {
+    background-color: #182740;
+    padding: 10px 0;
+    color: white;
+}
+
+.header-right .span1 {
+    margin-right: 20px;
+}
+
+.header-right .button1 {
+    background: #182740;
+    border: 1px solid #F7931A;
+    padding: 10px;
+}
+
+.header-right .button1:hover {
+    color: #F7931A;
+    transition: 1s;
+}
+
+.cont1 {
+    margin-top: 50px;
+}
+    
+.cont1 h1 {
+    font-size: 32px;
+    font-family: opens sans;
+}
+
+
+
+
+.logo {
+    width: 115px;
+}
+
+.main-nav li {
+    float: left;
+    padding-left: 0;
+    padding-right: 30px;
+    font-family: open sans;
+    padding: 5px;
+    margin-right: 25px;
+    
+}
+.main-nav .span2:hover {
+    transition: 1s;
+    color: #F7931A;
+}
+
+.main-nav {
+    
+    margin: 0;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .hello-zilla {
+        background-image: none;
+    }
+}
